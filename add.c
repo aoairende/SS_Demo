@@ -17,10 +17,10 @@ int main(void)
 	int sum = a + b;
 	pid_t pid;
 
-	ppid = getpid();
+	pid = getpid();
 
 	printf("Sum is %d\n", sum);
 	printf("pid is %u\n", pid);
 
-	return 0;
+	return (0);
 }
