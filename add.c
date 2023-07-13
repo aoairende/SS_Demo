@@ -15,8 +15,12 @@ int main(void)
 	int a = 3;
 	int b = 5;
 	int sum = a + b;
+	pid_t pid;
+
+	ppid = getpid();
 
 	printf("Sum is %d\n", sum);
+	printf("pid is %u\n", pid);
 
 	return 0;
 }
