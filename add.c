@@ -16,7 +16,7 @@ int main(void)
 	int b = 5;
 	int sum = a + b;
 
-	printf("Sum is %d\n', sum);
+	printf("Sum is %d\n", sum);
 
 	return 0;
 }
