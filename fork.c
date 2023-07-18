@@ -19,7 +19,7 @@ int main(void)
 
 		if (pid == -1)
 		{
-			perror("Unsuccessful\n");
+			perror("Unsuccessful");
 			return (1);
 		}
 
