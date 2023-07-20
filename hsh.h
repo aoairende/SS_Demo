@@ -139,7 +139,7 @@ void free_commands(command_t **head);
 void add_command(command_t **head, const char *args, char op);
 command_t *next_command(command_t **head);
 
-int _puts(char *str);
+int _puts(const char *str);
 int _putchar(char ch);
 int puts_err(char *str);
 int putchar_err(char ch);

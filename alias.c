@@ -1,5 +1,6 @@
 #include "hsh.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * print_alias - print alias
